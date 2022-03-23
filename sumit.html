@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registracija</title>
+    <style>
+        body{background-color: yellow;color: green;}
+    </style>
+</head>
+<body>
+<form action="patvirtinta.html" method="get">
+    <label for="Vardas">Vardas</label>
+    <input type="text" name="vardas" placeholder="vardas" required> <br><br>
+
+    <label for="Pavarde">Pavbarde</label>
+    <input type="text" name="pavarde" placeholder="pavarde" required><br><br>
+
+    <label for="El.pastas">El.pastas</label>
+    <input type="email" name="email" placeholder="EL.pastas" required><br><br>
+
+    <label for="Mietas">Mietas</label>
+    <select name="city">
+        <option value selected disabled>Miestas</option>
+        <option value="Vilnius">Vilnius</option>
+        <option value="Kaunas">Kaunas</option>
+        <option value="Alytus">Alytus</option>
+        <option value="Palanga">Palanga</option>
+        <option value="Nida">Nida</option>
+        <option value="Kitas">Kitas</option>
+        
+    </select><br><br>
+    
+
+    <p>Sutinku gerai praleisti laika</p>
+    <label for="Sutinka">Sutinka(privalomas)</label>
+    <input id="Sutinku" name="Laimingumas" type="checkbox" required><br><br>
+    <input type="submit" value="Pateikti">
+</form>
+    
+</body>
+</html>
